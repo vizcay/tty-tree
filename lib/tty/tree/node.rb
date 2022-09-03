@@ -39,7 +39,7 @@ module TTY
         end
 
         @path = Pathname.new(path)
-        @name   = @path.basename
+        @name   = @path
         @parent = Pathname.new(parent)
         @prefix = prefix
         @level  = level
